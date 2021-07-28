@@ -8,7 +8,7 @@ that are not in correct order, the algorithm swaps them.
 #### Time complexity 
 - Best case: `O(n)`, when the list is already sorted
 
-Worst case: `O(n^2)`, when the list is in reverse order
+- Worst case: `O(n^2)`, when the list is in reverse order
 
 #### Space complexity
-: `O(1)`, only one single additional memory space is required, e.g a temp variable
+- `O(1)`, only one single additional memory space is required, e.g a temp variable
