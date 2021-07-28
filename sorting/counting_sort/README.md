@@ -10,12 +10,13 @@ array can be created in O(n) time because the number of occurrences of each
 element can be retrieved from the bookkeeping array.
 
 #### Space complexity 
-- `O(n)` as all elements need to be stored in a map
+- `O(n)` as all elements need to be stored 
 
 #### Advantages
 - It is a fast and stable algorithm 
 
-_Note: A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted._
 
 #### Disadvantages 
 - It is not suitable for sorting large data sets
+
+_Note: A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted._
