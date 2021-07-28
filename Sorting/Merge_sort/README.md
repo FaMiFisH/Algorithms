@@ -14,4 +14,4 @@ The recursion consists of `O(log n)` levels, and processing each level takes `O(
 - `O(n*log n)` in all 3 cases (worst, average and best), the algorithm always divides the array in 2 halves and takes linear time to merge the 2 halves
 
 #### Space complexity
-- `O(n)`, requires additional amount of additional as the unsorted array 
+- `O(n)`, requires same amount of additional as the unsorted array 
