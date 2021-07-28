@@ -1,13 +1,6 @@
 public class BubbleSort<T extends Comparable<? super T>>{
-    public static void main(String args[]){
-        // Test the algorithm here
-
-        int[] testArr = {5,4,3,2,1};
-        bubbleSort(testArr);
-        
-    }
-
-    private void bubbleSort(T[] arr){
+    
+    public void bubbleSort(T[] arr){
         int n = arr.length;
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){

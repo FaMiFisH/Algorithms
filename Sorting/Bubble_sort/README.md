@@ -5,11 +5,11 @@ through the elements of the array. Whenever two consecutive elements are found
 that are not in correct order, the algorithm swaps them.
 
 ## Analysis
-Best case time complexity: O(n)
+Best case time complexity: `O(n)`
 - When the list is already sorted
 
-Worst case time complexity: O(n^2)
+Worst case time complexity: `O(n^2)`
 - When the list is in reverse order
 
-Space complexity: O(1)
+Space complexity: `O(1)`
 - Only one single additional memory space is required, e.g a temp variable
