@@ -1,5 +1,4 @@
 import java.util.Random;
-import Merge_sort.MergeSort;
 
 public class Test{
     public static void main(String[] args){
