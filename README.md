@@ -1,1 +1,1 @@
-My store for algorithms.
+I implement generic algorithms in java to practise and improve my java skills.
