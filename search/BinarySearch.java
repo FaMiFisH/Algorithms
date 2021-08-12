@@ -1,5 +1,4 @@
 package search;
-
 /**
  * Only works for sorted arrays. 
  * Checks the middle index of the active region, check either the left or right region depending in the value of the middle index.
