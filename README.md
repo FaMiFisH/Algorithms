@@ -1,1 +1,1 @@
-I implement generic algorithms in java to practise and improve my java skills.
+All algorithms are implemented in java generically.
