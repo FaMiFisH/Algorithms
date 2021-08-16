@@ -1,9 +1,9 @@
 package greedy;
 import java.util.Arrays;
 /**
- * PROBLEM   :  Given a set of coins, find the minimum number of coins needed to form the sum n.
+ * Problem   :  Given a set of coins, find the minimum number of coins needed to form the sum n.
  * Algorithm :  A simple greedy algorithm will always select the largest possible coin until the required sum is constucted.
- * EVALUATION:  The greedy algorithm does not always produce the optimal solution. For example, given the set {1,3,4} with target sum 6,
+ * Evaluation:  The greedy algorithm does not always produce the optimal solution. For example, given the set {1,3,4} with target sum 6,
  *              the greey algorithms will produce the solution 4+1+1 when the optimal solution is 3+3. However, it does find the optimal solution for 
  *              paticular sets. For example the set constaining coins of UK currency.
  */
