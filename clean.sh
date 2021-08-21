@@ -7,6 +7,7 @@ for dir in */; do
         if [ "${file: -6}" == ".class" ] 
         then
             rm $file
+            echo "Removed $file"
         fi
     done
     cd ..
