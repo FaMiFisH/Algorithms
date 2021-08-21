@@ -34,10 +34,29 @@ public class CoinProblem{
         System.out.println("");
     }
 
+    // part-2
+    /**
+     * Counts the number of ways the solution can be reached
+     * @param coins set of coins used to create the target sum
+     * @param n target sum
+     */
+    public static void count(int[] coins, int n){
+        int[] ways = new int[n+1];
+        ways[0] = 1;
+        for(int i = 1; i <= n; i++){
+            for(int c : coins){
+                if(i-c >= 0) ways[i] += ways[i-c];
+            }
+        }
+
+        System.out.println("Ans: " + ways[n]);
+    }
+
     // test
     public static void main(String[] args){
         int[] set = {1,2,5,10,20,50,100,200};
-        int target = 540;
+        int target = 5;
         CoinProblem.algorithm(set, target);
+        CoinProblem.count(set, target);
     }
 }
