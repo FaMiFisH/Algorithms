@@ -27,12 +27,23 @@ it.
 ### Adjacency list representation
 Each node x in the graph is assigned an adjacency list that contains nodes which there is an edge from x. For weighted graphs, for each node a, the adjacency list will store the pair (b,w) where b is the node which there is an edge to and w is the weight of the edge.
 
-The advantage of the adjacency list is that it is efficient to find nodes which we can move to. This can be easily achieved through a loop that goes through all nodes in the adjacency list of any paticular node.
+`Pros`:
+- Efficient to find nodes to move to from a given node.
+- Saves space O(|V|+|E|), in worst case its O(n^2)
+- Adding a vertex is easy
+`Cons`:
+- It is inefficient to search for edges
 
 ### Adjacency matrix representation
 The matrix is represented through a 2-dimensional array where each value adj[a][b] indicated whether ther is an edge between the nodes a and b. For a weighted graph, the implementation can be extended so the value stores the weight of the edge if it exists.
 
-The limitation of the adjacency matrix is that the matrix contains n sqaured elements where (usually) most values will be 0. Thus, it is not efficient for large graphs.
+`Pros`: 
+- Representation is easier to follow and implement. 
+- Search of an edge can be done in O(1) time
+- Removing an edge takes O(1) time.
+`Cons`:
+- Uses more space O(n^2). This is regardless of how many edges the graph has.
+- Adding a vertex takes O(n^2) time
 
 ### Edge list representation
 The edge list representation stores all edges of the graph is some order. The implementation stores pairs (a,b) where a and b are adjacent nodes in a list. If the graph is weighted, the implementation can be extended to also store triplets (a,b,w) where w is the weight of the edge.
