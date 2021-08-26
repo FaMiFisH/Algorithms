@@ -1,24 +1,24 @@
 # Graphs
 
 #### Terminology
-A `path` leads from node a to node b through edges of the graph.
-The `lenght` of a path is the number of edges in it.
-A path is a `cycle` if the first and last node are the same.
-A path is `simple` is each node appears at most once.
-A graph is `connected` is there is a path between any 2 nodes.
-The connected parts of the graph are called `compnents`.
-A `tree` is a connected graph with n nodes and n-1 edges.
-A `graph` is connected is the edges can only be traversed in one direction.
-`Weight` of an edge is its length.
-In a `weighted` graph, each eadge is assigned a weight.
-Two nodes are `adjacent` if there is an edge between them.
-The `degree` of a node is the number of adjacent nodes.
-A graph is `regular` if the degree if every node is a constant d.
-A graph is `complete` is each node has degree n-1 where n is the total number of nodes.
-In a directed graph, the `indegree` of a node is the number of edges that end at the node and `outdegree` is the number of edges that start at the node.
-In a `coloring` of a graph, each node is assigned a color such that no adjacent nodes have the same color.
-A graph is `bipartite` if it is possible to color it using only 2 colors.
-A graph is `simple` if no edges start and end on the same node and there are no multiple edges between 2 nodes.
+A `path` leads from node a to node b through edges of the graph.  
+The `lenght` of a path is the number of edges in it.  
+A path is a `cycle` if the first and last node are the same.  
+A path is `simple` is each node appears at most once.  
+A graph is `connected` is there is a path between any 2 nodes.  
+The connected parts of the graph are called `compnents`.  
+A `tree` is a connected graph with n nodes and n-1 edges.  
+A `graph` is connected is the edges can only be traversed in one direction.  
+`Weight` of an edge is its length.  
+In a `weighted` graph, each eadge is assigned a weight.  
+Two nodes are `adjacent` if there is an edge between them.  
+The `degree` of a node is the number of adjacent nodes.  
+A graph is `regular` if the degree if every node is a constant d.  
+A graph is `complete` is each node has degree n-1 where n is the total number of nodes.  
+In a directed graph, the `indegree` of a node is the number of edges that end at the node and `outdegree` is the number of edges that start at the node.  
+In a `coloring` of a graph, each node is assigned a color such that no adjacent nodes have the same color.  
+A graph is `bipartite` if it is possible to color it using only 2 colors.  
+A graph is `simple` if no edges start and end on the same node and there are no multiple edges between 2 nodes.  
 
 ### Graph representation
 There are several ways to represent graphs in algorithms. The choice of a data
