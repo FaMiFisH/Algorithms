@@ -30,7 +30,7 @@ Each node x in the graph is assigned an adjacency list that contains nodes which
 `Pros`:
 - Efficient to find nodes to move to from a given node.
 - Saves space O(|V|+|E|), in worst case its O(n^2)
-- Adding a vertex is easy
+- Adding a vertex is easy.  
 `Cons`:
 - It is inefficient to search for edges
 
@@ -40,7 +40,7 @@ The matrix is represented through a 2-dimensional array where each value adj[a][
 `Pros`: 
 - Representation is easier to follow and implement. 
 - Search of an edge can be done in O(1) time
-- Removing an edge takes O(1) time.
+- Removing an edge takes O(1) time.  
 `Cons`:
 - Uses more space O(n^2). This is regardless of how many edges the graph has.
 - Adding a vertex takes O(n^2) time
