@@ -56,10 +56,10 @@ This is a convenient way to represent a graph if the algorithm processes all edg
 ## Graph Traversal
 ### Depth-first search (DFS)
 DFS follows a single path as long as it finds new nodes. After this, it returns to the previous nodes to further traverse through unvisited nodes. The algorithm keeps track of the visited nodes so that it only processes each node once.  
-`Time complexity`: O(|V| + |E|)  
+`Time complexity`: O(|V|+|E|)  
 `Space complexity`: O(|V|)   
 
 ### Breadth-first search (BFS)
 BFS visits nodes in increasing order of their distance to the starting node. This allows us calculate the distance of all nodes from the starting node. The algorithm goes through nodes one level another. The first search explores nodes whose distance from the stating node is 1, then 2 and so on. The process continues until all nodes have been visited.  
-`Time complexity`: O(|V| + |E|)  
+`Time complexity`: O(|V|+|E|)  
 `Space complexity`: O(|V|)  
