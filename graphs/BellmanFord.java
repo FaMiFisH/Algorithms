@@ -6,7 +6,6 @@ package graphs;
  *              The algorithm searches for edges that reduce the distances starting from the starting node. 
  * Assumptions: The implemented algorithm assumes that the graph is stored as an edge list where eadges are stored as tuples of form (a,b,w), 
  *              meaning there is an edge from nodes a and b with weight w.
- * Evaluation:  
  */
 
 public class BellmanFord{
