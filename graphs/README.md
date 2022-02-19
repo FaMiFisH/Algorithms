@@ -80,3 +80,10 @@ Finds shortest paths from the starting node to all other nodes. The algorithm ca
 The algorithm keeps track of distances from the starting node to all nodes of the graph. Initially, the distance to the starting node is 0 and the distance to all other nodes in infinite. The algorithm reduces the distances by finding edges that shorten the paths until it is not possible to reduce any distance.
 
 The algorithm can also be used to check if the graph contains a negative cycle. To do so, run the algorithm n times and if any values decrease on the last round, the graph contains a negative cycle. This test will suffice for any starting node in the whole graph.
+
+## Longest path
+### In a forest
+For each tree in the forest. Pick an arbitrary vertex r as the root. Run DFS on r. At any vertex u, compute LPI(u) = max{max{LPI(c) : for all children (c) of u}, 2 + LPT(i) + LPT(j) : i and j are children of u and i != j}. LPT(u) = 1 + max{LPT(c) : for all children of u}. Running time is O(n) for each tree.
+
+### In a DAG
+![image](https://user-images.githubusercontent.com/55412683/154822501-3d830ca4-cef0-4f5a-a804-b80b5125b634.png)
